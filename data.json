@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "name": "César Flores",
+    "title": "Desarrollador de Software",
+    "description": "Transformando ideas en aplicaciones increibles",
+    "ctaText": "Conóceme",
+    "ctaLink": "#sobre-mi"
+  },
+  "aboutMe": {
+    "description": [
+      "Soy un desarrollador web con más de 10 años de experiencia.",
+      "Me especializo en crear aplicaciones web interactivas y atractivas.",
+      "Siempre estoy aprendiendo nuevas tecnologías y mejores prácticas."
+    ],
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  "skills": [
+    { "name": "Next.js", "icon": "/nextjs.jpeg" },
+    { "name": "TypeScript", "icon": "/typescript.png" },
+    { "name": "Tailwind CSS", "icon": "/tailwind.png" },
+    { "name": "Node.js", "icon": "/node-js.png" },
+    { "name": "PHP", "icon": "/php.png" },
+    { "name": "Python", "icon": "/python.png" },
+    { "name": "MySQL", "icon": "/mysql.png" },
+    { "name": "Mongo BD", "icon": "/mongo-db.png" },
+    { "name": "Looker Studio", "icon": "/looker.png" }
+  ],
+  "experiences": [
+    {
+      "title": "Desarrollador de software",
+      "company": "Cdimex SA",
+      "period": "Agosto 2023 - Presente",
+      "description": "Me especializo en el desarrollo de aplicaciones escalables y reutilizables utilizando tecnologías avanzadas como NextJS, NodeJS y Python. Además, diseño e implemento tableros de gestión en Looker Studio para facilitar la toma de decisiones. Mi enfoque incluye el análisis y la optimización continua de procesos, asegurando mejoras en los sistemas. También, coordino proyectos con proveedores externos para promover una colaboración efectiva y garantizar la entrega oportuna de soluciones y ofrezco soporte técnico y desarrollo de mejoras en el sistema ERP (Presea de NeuralSoft), adaptándolos a las necesidades cambiantes del negocio."
+    },
+    {
+      "title": "Desarrollador Full Stack de aplicaciones web",
+      "company": "Autónomo",
+      "period": "2014 - Presente",
+      "description": "He desarrollado varios proyectos, destacando Tiendasity, un marketplace creado con HTML, CSS, PHP y MySQL, y Simple-next-cv, una plantilla de CV dinámica utilizando Next JS y Bootstrap. También diseñé las landing pages para 'Lubricantes del Oeste' y 'Alejandro Denasio Peluqueria', ambas con integración a un servicio de reserva de turnos, empleando tecnologías como Next JS, TypeScript y Tailwind para una experiencia de usuario fluida y eficiente."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Pedify - Tienda Online",
+      "description": "Mi proyecto personal más desafiante fue desarrollar un ecommerce diseñado para ayudar a emprendedores, así como a pequeños y medianos comercios, a vender por internet de manera rápida, sencilla. La plataforma permite a los negocios mostrar un catálogo de productos y recibir pedidos directamente por WhatsApp, facilitando el proceso de compra. Para este desarrollo utilicé Next JS y Tailwind para una interfaz responsiva y moderna, integré la API de fakestoreapi.com para la gestión del catálogo de productos, y desplegué la solución utilizando Docker en AWS, asegurando escalabilidad y fiabilidad. Actualmente continúo con el desarrollo del proyecto en mis tiempos libres creando el dashboard de administración.",
+      "image": "/pedify.png",
+      "url": "https://mitienda.pedify.app"
+    },
+    {
+      "title": "Ale Denasio Peluquería",
+      "description": "Este proyecto consistió en el desarrollo de una landing page con un sistema de reserva de turnos personalizado. Utilicé Next JS y Tailwind para crear una interfaz intuitiva y responsiva. El desafío principal fue diseñar un sistema que permitiera generar calendarios específicos para cada empleado y servicio que ofrece el negocio, optimizando la gestión de reservas y la experiencia de usuario. Está desplegado en Google Cloud Run.",
+      "image": "/ale-denasio.png",
+      "url": "https://aledenasio.pediturno.com/"
+    },
+    {
+      "title": "Lubricantes del Oeste",
+      "description": "Se creó una landing page para la reserva de turnos y la visualización de un catálogo de productos del negocio. Durante el proceso, se respetó el diseño proporcionado previamente, aunque sugerí algunos ajustes para mejorar la experiencia de usuario. A pesar de que el proyecto no se completó debido a la falta de desarrollo de un backend para la gestión de productos, y la decisión del cliente de no continuar con el proyecto, la landing page sigue siendo utilizada diariamente para la reserva de turnos, mejorando significativamente la gestión del negocio. Está desplegado en Google Cloud Run.",
+      "image": "/lubricantes-del-oeste.png",
+      "url": "https://lubricantesdeloeste.com/"
+    },
+    {
+      "title": "Curriculum Personal",
+      "description": "Como proyecto personal, desarrollé un currículum vitae interactivo utilizando Next JS y Bootstrap, con un diseño minimalista y altamente funcional. La estructura está optimizada para una visualización fluida y adaptativa en diferentes dispositivos, brindando una experiencia de usuario limpia y moderna. Además, incluí secciones dinámicas que permiten resaltar habilidades, experiencia laboral y proyectos personales, ofreciendo una forma profesional y atractiva de presentar mi perfil. Está desplegado en Netlify.",
+      "image": "/simple-cv.png",
+      "url": "https://cesarflores-simplexcv.netlify.app/"
+    }
+  ],
+  "contact": {
+    "email": "mailto:florescesar80@gmail.com",
+    "whatsapp": "https://wa.me/3492272189",
+    "socialLinks": [
+      { "platform": "GitHub", "url": "https://github.com/csarflores" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/cesar-flores-software-developer" }
+    ]
+  }
+}
+
