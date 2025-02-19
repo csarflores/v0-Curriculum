@@ -34,7 +34,7 @@ export function Header() {
           className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center"
         >
           <ul className="space-y-8 text-center">
-            {["Inicio", "Sobre Mí", "Habilidades", "Experiencia", "Proyectos", "Contacto"].map((item) => (
+            {["Inicio", "Sobre Mí", "Herramientas", "Experiencia", "Proyectos", "Contacto"].map((item) => (
               <motion.li key={item} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
                 <a
                   href={`#${item.toLowerCase().replace(" ", "-")}`}

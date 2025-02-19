@@ -11,7 +11,9 @@ export function Hero() {
   })
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section
+      id="inicio"
+     className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-repeat bg-[url('/pixel-pattern.png')] opacity-10"></div>
       <motion.div
         ref={ref}

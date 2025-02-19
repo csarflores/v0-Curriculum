@@ -15,7 +15,7 @@ export function Skills() {
 
   return (
     <section
-      id="habilidades"
+      id="herramientas"
       className="min-h-screen flex items-center justify-center relative overflow-hidden py-20"
     >
       <SkillsBackground />
@@ -39,7 +39,7 @@ export function Skills() {
             }}
             transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
           >
-            Habilidades
+            Herramientas y tecnologías
           </motion.h2>
         </Parallax>
         {/* Contenedor para las habilidades con el parallax */}
@@ -53,7 +53,7 @@ export function Skills() {
                   animate={inView ? { opacity: 1, scale: 1 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   whileHover={{ scale: 1.1, boxShadow: "0 0 15px #ff00ff" }}
-                  className="bg-black bg-opacity-50 p-6 rounded-lg border border-neon-blue flex flex-col items-center justify-center w-70 h-70"
+                  className="bg-black bg-opacity-50 p-6 rounded-2xl border border-neon-blue flex flex-col items-center justify-center w-70 h-70"
                 >
                   <div className="w-20 h-20 flex items-center justify-center">
                     <Image

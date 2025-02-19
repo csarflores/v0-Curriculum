@@ -63,14 +63,11 @@ export function AboutMe() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="relative"
             >
-              <div className="aspect-w-16 aspect-h-9 border-4 border-yellow-400 rounded-lg overflow-hidden">
+              <div className="flex justify-center rounded-lg overflow-hidden w-fulgit pushl h-svh">
                 <iframe
-                  className="w-full h-full"
-                  src={data.aboutMe && data.aboutMe.videoUrl}
+                  className="w-3/4 h-3/4 border border-cyan-300 rounded-2xl"
+                  src={data.aboutMe.videoUrl}
                   title="Presentación"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
                 ></iframe>
               </div>
             </motion.div>

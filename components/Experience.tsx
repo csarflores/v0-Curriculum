@@ -46,7 +46,7 @@ export function Experience() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
-                className="bg-black bg-opacity-50 p-6 rounded-lg border border-neon-pink text-left pixel-font"
+                className="bg-black bg-opacity-50 p-6 rounded-2xl border border-neon-pink text-left pixel-font"
               >
                 <h3 className="text-2xl font-bold mb-2 text-neon-pink pixel-font">{exp.title}</h3>
                 <p className="text-neon-blue mb-1 pixel-font">{exp.company}</p>

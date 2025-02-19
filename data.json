@@ -12,7 +12,7 @@
       "Me especializo en crear aplicaciones web interactivas y atractivas.",
       "Siempre estoy aprendiendo nuevas tecnologías y mejores prácticas."
     ],
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "videoUrl": "https://www.youtube.com/embed/1IK2aIAdthk"
   },
   "skills": [
     { "name": "Next.js", "icon": "/nextjs.jpeg" },
@@ -36,13 +36,13 @@
       "title": "Desarrollador Full Stack de aplicaciones web",
       "company": "Autónomo",
       "period": "2014 - Presente",
-      "description": "He desarrollado varios proyectos, destacando Tiendasity, un marketplace creado con HTML, CSS, PHP y MySQL, y Simple-next-cv, una plantilla de CV dinámica utilizando Next JS y Bootstrap. También diseñé las landing pages para 'Lubricantes del Oeste' y 'Alejandro Denasio Peluqueria', ambas con integración a un servicio de reserva de turnos, empleando tecnologías como Next JS, TypeScript y Tailwind para una experiencia de usuario fluida y eficiente."
+      "description": "He desarrollado varios proyectos personales, destacando 'Tiendasity', un marketplace creado con HTML, CSS, PHP y MySQL; 'Pedify', una tienda online con carrito de compras y pedidos por whatsapp desarrollado en NextJS, TypeScript, Tailwind y Mongo DB. También desarrollé 'Simple-Next-CV', que es una plantilla de curriculum vitae dinámica utilizando Next JS y Bootstrap. Algunos proyectos de clientes incluyeron unas landing pages para 'Lubricantes del Oeste' y 'Alejandro Denasio Peluqueria', ambas con integración a un servicio de reserva de turnos, empleando tecnologías como Next JS, TypeScript y Tailwind para una experiencia de usuario fluida y eficiente."
     }
   ],
   "projects": [
     {
       "title": "Pedify - Tienda Online",
-      "description": "Mi proyecto personal más desafiante fue desarrollar un ecommerce diseñado para ayudar a emprendedores, así como a pequeños y medianos comercios, a vender por internet de manera rápida, sencilla. La plataforma permite a los negocios mostrar un catálogo de productos y recibir pedidos directamente por WhatsApp, facilitando el proceso de compra. Para este desarrollo utilicé Next JS y Tailwind para una interfaz responsiva y moderna, integré la API de fakestoreapi.com para la gestión del catálogo de productos, y desplegué la solución utilizando Docker en AWS, asegurando escalabilidad y fiabilidad. Actualmente continúo con el desarrollo del proyecto en mis tiempos libres creando el dashboard de administración.",
+      "description": "Uno de los proyectos más desafiantes que he desarrollado fue una tienda online diseñada para facilitar la venta por internet a emprendedores y a pequeños y medianos comercios. El objetivo de la plataforma es ofrecer una solución rápida y sencilla para que los negocios puedan mostrar su catálogo de productos y recibir pedidos directamente a través de WhatsApp, simplificando así el proceso de compra.<br />En este prototipo, cuyo enfoque principal es mostrar el funcionamiento de la plataforma, utilicé Next.js y Tailwind CSS para crear una interfaz moderna y completamente responsiva. Además, integré la API de fakestoreapi.com para gestionar el catálogo de productos, y la solución fue desplegada utilizando Docker en AWS, lo que garantiza escalabilidad y fiabilidad.<br />Actualmente, continúo trabajando en el proyecto en mi tiempo libre, desarrollando el dashboard de administración para mejorar aún más la experiencia del usuario.",
       "image": "/pedify.png",
       "url": "https://mitienda.pedify.app"
     },
@@ -59,7 +59,7 @@
       "url": "https://lubricantesdeloeste.com/"
     },
     {
-      "title": "Curriculum Personal",
+      "title": "Simple Next CV",
       "description": "Como proyecto personal, desarrollé un currículum vitae interactivo utilizando Next JS y Bootstrap, con un diseño minimalista y altamente funcional. La estructura está optimizada para una visualización fluida y adaptativa en diferentes dispositivos, brindando una experiencia de usuario limpia y moderna. Además, incluí secciones dinámicas que permiten resaltar habilidades, experiencia laboral y proyectos personales, ofreciendo una forma profesional y atractiva de presentar mi perfil. Está desplegado en Netlify.",
       "image": "/simple-cv.png",
       "url": "https://cesarflores-simplexcv.netlify.app/"

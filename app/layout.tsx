@@ -7,7 +7,7 @@ const vt323 = VT323({ subsets: ["latin"], weight: "400" })
 export const metadata = {
   title: "César Flores - Desarrollador de Software",
   description: "Curriculum Vitae de César Flores - Desarrollador de Software, Desarrollador Web Creativo",
-  generator: 'v0.dev'
+  generator: 'v0.dev',
 }
 
 export default function RootLayout({
@@ -16,12 +16,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
+      <head>
+        <link rel="icon" href="/curriculum.ico" />
+      </head>
       <body className={vt323.className}>{children}</body>
     </html>
   )
 }
-
-
-
-import './globals.css'

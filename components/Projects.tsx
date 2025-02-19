@@ -38,38 +38,42 @@ export function Projects() {
             }}
             transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY, repeatType: "reverse" }}
           >
-            Proyectos
+            Proyectos Destacados
           </motion.h2>
         </Parallax>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:p-10">
           {data.projects &&
-            data.projects.map((project, index) => (
-              <Parallax key={index} speed={5}>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={inView ? { opacity: 1, scale: 1 } : {}}
-                  transition={{ duration: 0.5, delay: index * 0.2 }}
-                  whileHover={{ scale: 1.05, boxShadow: "0 0 15px #00ffff" }}
-                  className="bg-black bg-opacity-50 rounded-lg border border-neon-green overflow-hidden flex flex-col h-full"
-                >
-                  <img
-                    src={project.image || "/placeholder.svg"}
-                    alt={project.title}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="p-6 flex-1">
-                    <a
-                      href={project.url} target="_blank"
-                    >
-                      <h3 className="text-xl font-bold mb-2 text-neon-green pixel-font">{project.title}</h3>
-                    </a>
-                    <div className="text-justify">
-                      <TextExpandable content={project.description} />
+            data.projects.map((project, index) => {
+              const formattedDescription = project.description.replace(/\n/g, '<br />'); // Reemplazar saltos de línea por <br />
+
+              return (
+                <Parallax key={index} speed={5}>
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={inView ? { opacity: 1, scale: 1 } : {}}
+                    transition={{ duration: 0.5, delay: index * 0.2 }}
+                    whileHover={{ scale: 1.05, boxShadow: "0 0 15px #00ffff" }}
+                    className="bg-black bg-opacity-50 rounded-2xl border border-neon-green overflow-hidden flex flex-col h-full"
+                  >
+                    <img
+                      src={project.image || "/placeholder.svg"}
+                      alt={project.title}
+                      className="w-full h-48 object-cover"
+                    />
+                    <div className="p-6 flex-1">
+                      <a
+                        href={project.url} target="_blank"
+                      >
+                        <h3 className="text-xl font-bold mb-2 text-neon-green pixel-font">{project.title}</h3>
+                      </a>
+                      <div className="text-justify">
+                        <TextExpandable content={formattedDescription} />
+                      </div>
                     </div>
-                  </div>
-                </motion.div>
-              </Parallax>
-            ))}
+                  </motion.div>
+                </Parallax>
+              )
+            })}
         </div>
       </motion.div>
     </section>
@@ -82,13 +86,11 @@ function TextExpandable({ content }: { content: string }) {
 
   return (
     <div>
-      <p className="text-gray-300 pixel-font">
-        {isExpanded ? content : truncatedText}
-      </p>
+      <p className="text-gray-300 pixel-font" dangerouslySetInnerHTML={{ __html: isExpanded ? content : truncatedText }} />
       {content.length > 150 && (
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="text-cyan-300 mt-2 hover:text-cyan-500"
+          className="text-xl underline text-cyan-300 mt-2 hover:text-cyan-500"
         >
           {isExpanded ? "Ver menos" : "Ver más"}
         </button>
